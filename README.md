@@ -17,7 +17,7 @@ Port: 2200
 
 
 
-Password for sudo is `q1w2e3r4`
+sudo password `q1w2e3r4`
 
 
 ## Summary
@@ -34,13 +34,15 @@ Pyhton modules:
 
 Web server conf:
 /etc/apache2/sites-available/flask.conf - Apache2 conf
+
+
 /var/www/catalog/flask.wsgi - To run my pyhton code
 
 
 OS changes:
-1. Created users and enabled sudo: catalog, grader
+1. Created users and enabled sudo: `catalog, grader`
 2. Disabled root login from `PermitRootLogin no`
-3. Enabled `ufw` and allowed incoming connections to port 80, 2200 and 123
+3. Enabled `ufw` and allowed incoming connections to port `80, 2200` and `123`
 4. Disabled password login `PasswordAuthentication no`
 5. Added public key for user `grader` to `.ssh/authorized_keys` for login
 6. Changed ssh port to `2200`
