@@ -1,5 +1,10 @@
 # Linux Server Configuration Udacity project
 
+## Intro 
+
+This is my Item Catalog web app hosted in Google Cloud.
+
+### Note!
 In order to use login Google OAuth service please add the following line to your hosts file. This is because I don't have a nameserver for my host and Google OAuth doesn't work with IP addresses.
 
 
