@@ -35,10 +35,10 @@ Pyhton modules:
 Web server conf:
 
 
-/etc/apache2/sites-available/flask.conf - Apache2 conf
+`/etc/apache2/sites-available/flask.conf` - Apache2 conf
 
 
-/var/www/catalog/flask.wsgi - To run my pyhton code
+`/var/www/catalog/flask.wsgi` - To run my pyhton code
 
 
 OS changes:
