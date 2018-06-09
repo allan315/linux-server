@@ -53,6 +53,7 @@ OS changes:
 4. Disabled password login `PasswordAuthentication no`
 5. Added public key for user `grader` to `.ssh/authorized_keys` for login
 6. Changed ssh port to `2200`
+7. Configured daily automatic updates
 
 
 ## Resources used
