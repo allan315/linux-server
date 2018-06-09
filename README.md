@@ -53,3 +53,10 @@ OS changes:
 4. Disabled password login `PasswordAuthentication no`
 5. Added public key for user `grader` to `.ssh/authorized_keys` for login
 6. Changed ssh port to `2200`
+
+
+## Resources used
+1. https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546 - PSQL cheat sheet
+2. https://www.digitalocean.com/community/tutorials/ - OS operations tutorials
+3. https://www.youtube.com/watch?v=wq0saslschw - How to deploy flask app in ubuntu
+4. https://help.ubuntu.com/lts/serverguide/automatic-updates.html - automatic updates in ubuntu
